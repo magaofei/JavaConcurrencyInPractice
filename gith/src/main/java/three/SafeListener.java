@@ -1,7 +1,7 @@
 package three;
 
-import javafx.event.Event;
 
+import java.awt.*;
 import java.sql.Connection;
 import java.util.*;
 
@@ -11,9 +11,6 @@ public class SafeListener {
 
     private SafeListener() {
         eventListener = new EventListener() {
-            public void onEvent(Event e) {
-                //
-            }
         };
     }
 
